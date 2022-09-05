@@ -22,7 +22,6 @@ def insert_tables(cur: psycopg2.cursor, conn: psycopg2.connection):
 def main():
     config = configparser.ConfigParser()
     config.read("dwh.cfg")
-
     conn = psycopg2.connect(
         "host={} dbname={} user={} password={} port={}".format(
             *config["CLUSTER"].values()

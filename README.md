@@ -30,7 +30,7 @@ I createa a star schema optimized for queries on song play analysis. This includ
 
 
 The database schema is shown as follows
-![schema](./imgs/schema.PNG)
+<img src="imgs/schema.PNG"/>
 
 ### Data Warehouse Configurations and Setup
 * Create a new `IAM user` in your AWS account
